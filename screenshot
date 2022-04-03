@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#Written by Bloopers
+
+import -window root ~/pix/$(date '+%Y%m%d-%H%M%S').png
+notify-send "screenshot saved"
