@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# written by bloopers
+
+names="$(cat $HOME/.local/share/youtube | cut -d ';' -f1 | dmenu -p "Select Channel: " -l 15)"
+channel_link="$(cat $HOME/.local/share/youtube | grep -i "$names" | cut -d ';' -f2)"
+
