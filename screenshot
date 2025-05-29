@@ -8,6 +8,6 @@
 
 
 #below works with wayland
-grim ~/pix/$(date '+%Y%m%d-%H%M%S.png')
+grim ~/pix/screenshots/$(date '+%Y%m%d-%H%M%S.png')
 notify-send "screenshot saved"
 
